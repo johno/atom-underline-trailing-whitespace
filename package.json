@@ -3,7 +3,7 @@
   "main": "./lib/underline-trailing-whitespace",
   "version": "0.1.2",
   "description": "A visual cue for trailing whitespace with a subtle underline",
-  "activationCommands": {
+  "deactivationCommands": {
     "atom-workspace": "underline-trailing-whitespace:toggle"
   },
   "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
