@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle underline-trailing-whitespace'
+      'command': 'underline-trailing-whitespace:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'underline-trailing-whitespace'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'underline-trailing-whitespace:toggle'
+        }
+      ]
+    ]
+  }
+]
