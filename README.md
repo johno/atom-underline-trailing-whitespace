@@ -13,11 +13,12 @@ apm install underline-trailing-whitespace
 
 ## Customization
 
-You can change the underline color by declaring the variable, `@underline-trailing-whitespace-color`,
-in your user stylesheet:
+You can change the underline color with the following:
 
 ```less
-@underline-trailing-whitespace-color: @my-new-color;
+.trailing-whitespace {
+  border-bottom-color: @my-new-color;
+}
 ```
 
 ## License
