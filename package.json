@@ -1,7 +1,7 @@
 {
   "name": "underline-trailing-whitespace",
   "main": "./lib/underline-trailing-whitespace",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A visual cue for trailing whitespace with a subtle underline",
   "activationCommands": {
     "atom-workspace": "underline-trailing-whitespace:toggle"
@@ -19,6 +19,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
