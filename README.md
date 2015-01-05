@@ -10,6 +10,15 @@ An Atom package for providing a visual cue for trailing whitespace with a subtle
 apm install underline-trailing-whitespace
 ```
 
+## Customization
+
+You can change the underline color by declaring the variable, `@underline-trailing-whitespace-color`,
+in your user stylesheet:
+
+```less
+@underline-trailing-whitespace-color: @my-new-color;
+```
+
 ## License
 
 MIT
