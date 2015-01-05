@@ -1,6 +1,7 @@
 # atom-underline-trailing-whitespace
 
-An Atom package for providing a visual cue for trailing whitespace with a subtle underline.
+An Atom package for providing a visual cue for trailing whitespace with a subtle underline. This
+package also ignores the current cursor line.
 
 ![underline-trailing-whitespace](https://cloud.githubusercontent.com/assets/1424573/5618239/3a1825c0-94d4-11e4-95d5-85175d5191dd.png)
 
