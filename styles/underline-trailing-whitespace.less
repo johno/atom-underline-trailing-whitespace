@@ -2,10 +2,14 @@
 
 @underline-trailing-whitespace-color: @text-color-warning;
 
-.trailing-whitespace {
-  border-bottom: thin solid @underline-trailing-whitespace-color;
-}
+atom-text-editor,
+atom-text-editor::shadow  {
 
-.cursor-line .trailing-whitespace {
-  border-bottom: 0;
+  .trailing-whitespace {
+    border-bottom: thin solid @underline-trailing-whitespace-color;
+  }
+
+  .cursor-line .trailing-whitespace {
+    border-bottom: 0;
+  }
 }
