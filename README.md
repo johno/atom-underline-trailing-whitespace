@@ -22,6 +22,7 @@ atom-text-editor::shadow  {
   .trailing-whitespace {
     border-bottom-color: @my-new-color;
   }
+}
 ```
 
 ## License
