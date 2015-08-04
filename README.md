@@ -16,9 +16,12 @@ apm install underline-trailing-whitespace
 You can change the underline color with the following:
 
 ```less
-.trailing-whitespace {
-  border-bottom-color: @my-new-color;
-}
+atom-text-editor,
+atom-text-editor::shadow  {
+
+  .trailing-whitespace {
+    border-bottom-color: @my-new-color;
+  }
 ```
 
 ## License
